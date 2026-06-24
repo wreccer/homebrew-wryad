@@ -9,23 +9,23 @@
 class Wryad < Formula
   desc "Wryad Automation Engine — harness CLI and Workshop team builder"
   homepage "https://github.com/wreccer/wryad"
-  version "0.0.9"
+  version "0.0.10"
 
   on_macos do
     on_arm do
-      url "https://github.com/wreccer/wryad/releases/download/v0.0.9/wryad-aarch64-apple-darwin.tar.gz"
-      sha256 "f870c463e9501a4bf36971abce74fb802ec1f7e9a5f40908ba2d196cccb44e99"
+      url "https://github.com/wreccer/wryad/releases/download/v0.0.10/wryad-aarch64-apple-darwin.tar.gz"
+      sha256 "23c77b1f9656cd9778228ef6b689cff126f9cfe36ba499cefe3163e01d009850"
     end
     on_intel do
-      url "https://github.com/wreccer/wryad/releases/download/v0.0.9/wryad-x86_64-apple-darwin.tar.gz"
-      sha256 "cf6fe8c674f5517493de66af3f7f3c8b28f9150d7ca12b6298cbed8cbb1748a5"
+      url "https://github.com/wreccer/wryad/releases/download/v0.0.10/wryad-x86_64-apple-darwin.tar.gz"
+      sha256 "c9e388a34eac2bc179d70714d739c2fb340ac732d12b17b1933c7a3062372fae"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/wreccer/wryad/releases/download/v0.0.9/wryad-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4f14c887873e12c8ff6f44c77f3e54530b9fa0138a5f9527f03d49350ed0f80f"
+      url "https://github.com/wreccer/wryad/releases/download/v0.0.10/wryad-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "388828ebe4185a6d8e6bf7fb5b2837cf21b010172bab40d09ea6fa3053d044db"
     end
   end
 
